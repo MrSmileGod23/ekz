@@ -1,7 +1,6 @@
 <?php
 include "./server/bdconnect.php";
 
-
 //Код просмотра категорий
 function show_category(){
   include "./server/bdconnect.php";
@@ -16,7 +15,6 @@ function show_category(){
   }
   return $str;
 }
-
 
 //Код просмотра товара
 function show_tovars(){
@@ -66,27 +64,4 @@ function show_tovars(){
   echo "</form>";
   mysqli_close($link);
 }
-
-
-
-
-
-
-
-
-
-
-
 ?>
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
-</html>
