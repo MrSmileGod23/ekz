@@ -1,7 +1,7 @@
-<?php 
+<?php
 $host = "localhost";
-$user="root";
-$pass="";
-$dbName="ttt";
-$link=mysqli_connect($host,$user,$pass,$dbName) or die(mysqli_error());
+$user = "root";
+$pass = "";
+$dbname = "ttt";
+$link = mysqli_connect($host,$user,$pass,$dbname) or die(mysqli_error());
 ?>
